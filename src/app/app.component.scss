@@ -1,0 +1,18 @@
+input {
+  margin-right: 1em;
+}
+
+.stone-container {
+  position: relative;
+
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+.transparency {
+  opacity: 0;
+}
