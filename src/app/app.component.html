@@ -6,6 +6,7 @@
       <mat-label>石子堆数量</mat-label>
       <input matInput placeholder="2" type="number" [(ngModel)]="stackCount" />
     </mat-form-field>
+    <button mat-raised-button color="primary" (click)="randomInit()">随机</button>
   </p>
   <p>
     <mat-form-field appearance="standard" *ngFor="let _ of stoneCount; index as i">

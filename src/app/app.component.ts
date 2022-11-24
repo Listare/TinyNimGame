@@ -153,4 +153,10 @@ export class AppComponent {
       this.nextStep();
     }, 1000);
   }
+
+  randomInit(): void {
+    this.stackCount = Math.floor(Math.random() * 10) + 1;
+    for (let i = 0; i < this.stackCount; i++)
+      this.stoneCount[i] = Math.floor(Math.random() * 10) + 1;
+  }
 }
